@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro de Receitas - Sonhado Sabor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🍽️ Sonhado Sabor</h1>
+            <p>Livro de Receitas Gourmet</p>
+            <div class="linha"></div>
+        </header>
+
+        <div class="categories">
+            <button onclick="showRecipe('r1')">Bruschetta</button>
+            <button onclick="showRecipe('r2')">Carpaccio</button>
+        </div>
+
+        <div class="recipes">
+            <div id="r1" class="recipe-details">
+                <h2>Bruschetta Clássica</h2>
+                <p>Pão italiano tostado com tomate, manjericão e azeite</p>
+                <div class="recipe-header">
+                    <img src="Bruschetta.webp" alt="Bruschetta">
+                    <div class="recipe-info">
+                        <p><b>⏱ Tempo:</b> 15 minutos</p>
+                        <p><b>⭐ Dificuldade:</b> Fácil</p>
+                    </div>
+                </div>
+                <h3>👨‍🍳 Ingredientes</h3>
+                <ul>
+                    <li>1 baguete italiana</li>
+                    <li>4 tomates maduros</li>
+                    <li>2 dentes de alho</li>
+                    <li>Folhas de manjericão fresco</li>
+                    <li>4 colheres de sopa de azeite</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+                <h3>🍳 Modo de Preparo</h3>
+                <ol>
+                    <li>Corte a baguete em fatias.</li>
+                    <li>Toste as fatias no forno.</li>
+                    <li>Esfregue alho nas fatias.</li>
+                    <li>Misture tomates, manjericão e azeite.</li>
+                    <li>Coloque a mistura sobre o pão e sirva.</li>
+                </ol>
+                <h3>💡 Dicas</h3>
+                <p>Para uma bruschetta ainda mais saborosa, deixe a mistura de tomate descansar por 30 minutos antes de servir, permitindo que os sabores se integrem. Você também pode adicionar queijo parmesão ralado por cima.</p>
+            </div>
+
+            <div id="r2" class="recipe-details">
+                <h2>Carpaccio Premium</h2>
+                <p>Finas fatias de filé mignon com alcaparras e parmesão</p>
+                <div class="recipe-header">
+                    <img src="carpaccio.jpg" alt="Carpaccio">
+                    <div class="recipe-info">
+                        <p><b>⏱ Tempo:</b> 20 minutos + 1h refrigeração</p>
+                        <p><b>⭐ Dificuldade:</b> Médio</p>
+                    </div>
+                </div>
+                <h3>👨‍🍳 Ingredientes</h3>
+                <ul>
+                    <li>400g de filé mignon</li>
+                    <li>2 colheres de alcaparras</li>
+                    <li>50g de parmesão em lascas</li>
+                    <li>4 colheres de azeite</li>
+                    <li>Suco de 1 limão</li>
+                    <li>Rúcula</li>
+                    <li>Sal e pimenta</li>
+                </ul>
+                <h3>🍳 Modo de Preparo</h3>
+                <ol>
+                    <li>Leve o filé ao congelador 1 hora.</li>
+                    <li>Corte em fatias finas.</li>
+                    <li>Coloque em pratos e tempere com azeite, limão, sal e pimenta.</li>
+                    <li>Adicione alcaparras, parmesão e rúcula.</li>
+                </ol>
+                <h3>💡 Dicas</h3>
+                <p>O segredo para um bom carpaccio está no corte fino da carne. Se preferir, peça ao açougueiro para fatiar a carne para você. Para uma versão mais sofisticada, adicione um fio de azeite trufado por cima.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Sonhado Sabor. Todos os direitos reservados.</p>
+        <div class="socials">
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">TikTok</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
